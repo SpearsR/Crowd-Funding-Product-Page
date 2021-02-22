@@ -360,14 +360,68 @@ p.about.modal {
 
 .input-money input:focus {
     outline: none;
+
+}
+
 .input-money input:focus {
     border: none;
 }
 
 
+/******************Mobile Send*********************/
+@media only screen and (max-width:800px){
+    .main-card {
+        width: 80%;
+    }
 
+    .stand-top {
+        display: flex;
+        flex-direction: column;
+    }
 
+    .vert-line {
+        display: none;
+    }
+     .info-card {
+         flex-direction: column;
+     }
 
+     .info-data {
+         text-align: center;
+         justify-content: center;
+     }
+
+     .info-data strong {
+         text-align: center;
+
+     }
+
+     .number {
+         display: flex;
+         text-align: center;
+         justify-content: centerS;
+     }
+
+     .bottom-info {
+        flex-direction: column;
+     }
+
+     .left-container {
+         margin-bottom: 20px;
+     }
+
+     .saved-main {
+         flex-direction: column;
+         justify-content: center;
+
+     }
+
+     .book-marked {
+         width: 60%;
+         margin: 20px auto;
+     }
+     
+}
 
 
 
