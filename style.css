@@ -1,0 +1,374 @@
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+nav {
+    background-image: url('./images/image-hero-desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 15% 400px 15%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Commissioner';
+    background-color: rgb(247, 247, 247)
+}
+
+.nav-links > * {
+    margin: 0 10px;
+}
+
+.master-logo {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: -52px;
+    border-radius: 100%;
+    
+}
+
+.main-card {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+#hide-this {
+    transition: .3s;
+}
+
+.main-project-container, .project-card {
+    border-radius: 10px;
+    padding: 25px;
+    position: relative;
+    top: -150px;
+    background-color: white;
+    text-align: center;
+    border: 1px solid rgb(233, 233, 233);
+    margin: 15px 0
+}
+
+.main-project-container h1 {
+    font-size: 2em;
+    margin-top: 0;
+}
+
+.saved-main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.book-marked {
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    background-color: rgb(218, 218, 218);
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.book-marked div {
+    color: grey;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-right: 27px;
+}
+
+.book-marked div span {
+    position: relative;
+    left: 10px;
+    font-weight: 700;
+}
+
+.backed-project {
+    font-size: 1.1em;
+    color: white;
+    background-color: hsl(176, 50%, 47%);
+    display: inline-block;
+    padding: 20px 40px;
+    border-radius: 40px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.backed-project:hover {
+    background-color: hsl(176, 72%, 28%);
+}
+
+.lighten {
+    color: rgb(63, 63, 63);
+}
+
+.info-card {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.info-card div {
+    margin: 20px;
+}
+
+.info-card .number {
+    font-size: 1.8em;
+    text-align: left;
+}
+
+.vert-line {
+    display: inline-block;
+    width: 1px;
+    height: 70px;
+    background-color:  rgb(233, 233, 233);
+}
+
+
+.progress-empty {
+    width: 100%;
+    height: 15px;
+    border-radius: 30px;
+    background-color: rgb(243, 243, 243);
+}
+
+.progress {
+    border-radius: 30px;
+    height: 100%;
+    width: 65%;
+    background-color: hsl(176, 50%, 47%) ;
+}
+
+.spacer {
+    border-width: 0px;
+}
+
+.about {
+    color: rgb(158, 158, 158);
+    font-weight: 500;
+    text-align: left;
+    line-height: 2em;
+}
+
+h2 {
+    text-align: left;
+    margin: 30px 0;
+}
+
+
+.stand-box {
+    border-radius: 10px;
+    padding: 25px;
+    background-color: white;
+    border: 1px solid rgb(233, 233, 233);
+    margin: 25px 0;
+}
+
+
+
+.stand-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pledge-money {
+    color:  hsl(176, 50%, 47%);
+}
+
+.bottom-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.select-reward-container {
+    font-size: .9em;
+    background-color: hsl(176, 50%, 47%);
+    padding: 20px 20px;
+    color: white;
+    border-radius: 30px;
+    transition: .3s;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.select-reward-container:hover {
+    background-color: hsl(176, 72%, 28%);
+}
+
+.left-container {
+    display: flex;
+    align-items: center;
+}
+
+.left-container strong {
+    font-size: 2em;
+}
+
+.select-reward-container-out {
+    font-size: .9em;
+    background-color: hsl(0, 0%, 72%);
+    padding: 20px 20px;
+    color: white;
+    border-radius: 30px;
+    transition: .3s;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.out h3, .out .left-container strong{
+    color: hsl(0, 0%, 48%);
+}
+
+/******************** Model Section *************************/
+
+.main-modal-box {
+    display: none;
+    margin: 0 auto;
+    transition: .3s;
+}
+
+.model-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.model-title img {
+    color: black;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: -40px;
+    left: 15px;
+    cursor: pointer;
+
+}
+
+.modal > .stand-box {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    
+}
+
+.stand-top-modal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+p.about.modal {
+    margin-left: 10.7%;
+}
+
+.modal .stand-box h3 {
+    color: hsl(176, 50%, 47%);
+    text-align: left;
+}
+
+
+
+.checked-container {
+    min-width: 30px;
+    min-height: 30px;
+    height: 35px;
+    width: 35px;
+    border-radius: 100%; 
+    border: 3px solid hsl(176, 50%, 47%) ;
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.checked-container.out {
+    border-color: hsl(0, 0%, 48%);
+}
+
+.inner-circle {
+    display: none;
+    width: 23px;
+    height: 23px;
+    border-radius: 100%; 
+    background-color: hsl(176, 50%, 47%);
+    transition: .5;
+}
+
+
+#check1 {
+    display: none;
+}
+
+#check2 {
+    display: none;
+}
+
+#check3 {
+    display: none;
+}
+.close {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.modal .pledge-money {
+    margin-left: 25px;
+}
+
+.stand-top-modal h3.out {
+    color: hsl(0, 0%, 48%);
+}
+
+.enter-pledge-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top:  1px solid rgb(233, 233, 233);
+    padding-top: 25px;
+}
+
+.num-and-continue {
+    display: flex;
+    align-items: center;
+}
+
+.input-money {
+    display: block;
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid rgb(233, 233, 233);
+    margin-right: 15px;
+}
+
+.input-money input {
+    border: none;
+    width: 70px;
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+.input-money input:focus {
+    outline: none;
+.input-money input:focus {
+    border: none;
+}
+
+
+
+
+
+
+
+
+
